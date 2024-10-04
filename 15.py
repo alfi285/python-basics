@@ -1,16 +1,13 @@
-# Output variables
+#Unpack a collection
 
-x = "Python"
-y = "is"
-z = "awesome"
+#If you have a collection of values in a list , tuple etc.
+# Python allows you to extract the values into variables.
+# This is called unpacking
 
-a = 5
-b = 10
-u = 5
-v = "Zaara"
+#Unpack a list
 
-print(x, y, z)
-
-print(x + " " + y + " " + z)
-print(a + b)
-print(u, v)
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
